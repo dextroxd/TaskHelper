@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home1" android:checkable="true" android:title="@string/home" android:background="?attr/selectableItemBackground"/>
+    <item android:id="@+id/custom1" android:checkable="true" android:title="@string/custom" android:background="?attr/selectableItemBackground"/>
+    <item android:id="@+id/aboutus" android:checkable="true" android:title="@string/about" android:background="?attr/selectableItemBackground"/>
+    <item android:id="@+id/help" android:checkable="true" android:title="@string/help" android:background="?attr/selectableItemBackground" />
+    <item android:id="@+id/listvsgrid" android:checkable="true" android:title="@string/listvsgrid1" android:background="?attr/selectableItemBackground"/>
+</menu>

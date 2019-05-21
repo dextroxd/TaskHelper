@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#D3D3D3</color>
+    <!--Intro Slider Screens Color-->
+    <color name="slider1">#000</color>
+    <color name="slider2">#000</color>
+    <color name="slider3">#000</color>
+    <!--Intro Slider Dots Inactive Screens Color-->
+    <color name="dot_inactive1">#D3D3D3</color>
+    <color name="dot_inactive2">#D3D3D3</color>
+    <color name="dot_inactive3">#D3D3D3</color>
+    <!--Intro Slider Dots Active Screens Color-->
+    <color name="dot_active1">#000 </color>
+    <color name="dot_active2">#000 </color>
+    <color name="dot_active3">#000 </color>
+    <array name="array_dot_active">
+        <item>@color/dot_active1</item>
+        <item>@color/dot_active2</item>
+        <item>@color/dot_active3</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/dot_inactive1</item>
+        <item>@color/dot_inactive2</item>
+        <item>@color/dot_inactive3</item>
+    </array>
+    <color name="black">#000000</color>
+</resources>

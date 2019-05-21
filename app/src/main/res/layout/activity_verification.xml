@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.VerificationActivity">
+<ImageView
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:src="@drawable/taskhelperlogo"
+    android:layout_centerHorizontal="true"
+    android:scaleType="centerCrop"
+    android:id="@+id/logoimage"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@id/logoimage"
+        android:text="@string/getverfied"
+        android:layout_margin="16dp"
+        android:fontFamily="@font/psb"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/textview"
+        />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verify and Continue"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/psb"
+            android:layout_below="@id/textview"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="16dp"
+            android:id="@+id/getmein"
+            />
+
+
+    <ProgressBar
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/progressBar1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:visibility="gone"/>
+</RelativeLayout>
